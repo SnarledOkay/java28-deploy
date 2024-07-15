@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTVN Nguyen Cao Huy</title>
+</head>
+<body>
+    <p><b>Đăng ký</b></p>
+    <table>        
+        <tbody>
+            <tr>
+                <th><label>Full name </label></th>
+                <td><input type="text" placeholder="Nhập fullname"></td>
+            </tr>
+            <tr>
+                <th><label>Username </label></th>
+                <td><input type="text" placeholder="Nhập tên"></td>
+            </tr>
+            <tr>
+                <th><label>Password</label></th>
+                <td><input type="password" placeholder = "Nhập mật khẩu"></td>
+            </tr>
+            <tr>
+                <th><label> Nhập lại password </label></th>
+                <td><input type="password" placeholder=" Nhập lại mật khẩu"></td>
+            </tr>
+            <tr>
+                <th><label>Giới tính</label></th>
+                <td>
+                    <div class = "radio">
+                        <input type="radio" id = "male" name = "Gender" value = "Nam">
+                        <label for="male"> Nam </label>
+                        <input type="radio" id = "female" name = "Gender" value = "Nữ"> 
+                        <label for="female">Nữ </label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th><label>Ngày sinh </label></th>
+                <td>
+                    <div class = "select">
+                        <select>
+                            <option>Ngày 1</option> <option>Ngày 2</option> <option>Ngày 3</option> <option>Ngày 4</option> <option>Ngày 5</option>
+                            <option>Ngày 6</option> <option>Ngày 7</option> <option>Ngày 8</option> <option>Ngày 9</option> <option>Ngày 10</option>
+                            <option>Ngày 11</option> <option>Ngày 12</option> <option>Ngày 13</option> <option>Ngày 14</option> <option>Ngày 15</option>
+                            <option>Ngày 16</option> <option>Ngày 17</option> <option>Ngày 18</option> <option>Ngày 19</option> <option>Ngày 20</option>
+                            <option>Ngày 21</option> <option>Ngày 22</option> <option>Ngày 23</option> <option>Ngày 24</option> <option>Ngày 25</option>
+                            <option>Ngày 26</option> <option>Ngày 27</option> <option>Ngày 28</option> <option>Ngày 29</option> <option>Ngày 30</option> <option>Ngày 31</option>
+                        </select>
+                        <select>
+                            <option>Tháng 1</option> <option>Tháng 2</option> <option>Tháng 3</option> <option>Tháng 4</option>
+                            <option>Tháng 5</option> <option>Tháng 6</option> <option>Tháng 7</option> <option>Tháng 8</option>
+                            <option>Tháng 9</option> <option>Tháng 10</option> <option>Tháng 11</option> <option>Tháng 12</option>                    
+                        </select>
+                        <select>
+                            <option>Năm 2001</option>
+                            <option>Năm 2002</option>
+                            <option>Năm 2003</option>
+                            <option>Năm 2004</option>
+                            <option>Năm 2005</option>
+                            <option>Năm 2006</option>
+                            <option>Năm 2007</option>
+                            <option>Năm 2008</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th><label>Địa chỉ </label></th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th><label>Avatar </label></th>
+                <td>
+                    <form action="/.action_page.php">
+                        <input type="file" id = "myFile" name = "filename">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th><label>Sở thích </label></th>
+                <td>
+                    <input type="checkbox" id = "like1" name = "like1" value = "Film"> 
+                    <label for="like1">Xem Phim</label>
+                    <input type="checkbox" id = "like2" name = "like2" value = "Sport"> 
+                    <label for="like2">Thể thao</label>
+                    <input type="checkbox" id = "like3" name = "like3" value = "Web"> 
+                    <label for="like3">Web</label>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <button type = "reset">Reset </button>
+                    <button type = "submit">OK </button>
+                </th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
